@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgba(5, 4, 4, 0.858);
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  color:bisque;
+  font-family: "Oswald", sans-serif;
+}
+li{
+  list-style: none;
+  display: inline;  
+  
+}
+a{
+  margin-left: 25px;
+text-decoration: none;
+color:bisque;
+padding-bottom: 5px;
+}
+a:hover{
+  border-bottom: 2px solid red;
+
+}
+button{
+  border:none;
+  background-color: rgba(239, 150, 42, 0.77);
+  color:rgba(246, 235, 235, 0.621);
+  padding:5px 20px;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color:rgba(246, 235, 235, 0.621);
+  color: rgba(239, 150, 42, 0.77);
+}
+.header{
+background-image: url("https://images.pexels.com/photos/10717295/pexels-photo-10717295.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+background-position: center;
+/* image-rendering: pixelated; */
+background-size: cover;
+height: 100vh;
+font-family:"Oswald", sans-serif;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+position:relative;
+}
+.text1{
+  transform: translateX(400px);
+}
+.text2{
+  transform: translateX(400px);
+}
+.btn{
+  transform: translateX(400px);
+}
+img{
+
+  height: 500px;
+  width: 600px;
+}
+section{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.story{
+  display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ max-width: 500px;
+}
+.pic1{
+  transform: translateX(80px);
+}
+p{
+  margin-top: 20px;
+}
+.btn2{
+  transform: translate(90px, 40px);
+}
+.btn2:hover{
+  background-color:rgba(246, 235, 235, 0.621);
+  color: rgba(239, 150, 42, 0.77);
+
+}
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color:wheat;
+  height: 50vh;
+}
+footer .container{
+  max-width: 300px;
+  margin:45px;
+  text-align: center;
+}
+span{
+  color:rgb(6, 11, 11);
+}
+
